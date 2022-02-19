@@ -7,7 +7,7 @@ int main(){
 
     int a = 0, b = 0;
     bool flag = false;
-    for(int i=0;i<s.length();i++){
+    for(int i=0;i<s.size();i++){
         if(!flag && s[i] == s[0]){
             a++; flag = true;
         }
